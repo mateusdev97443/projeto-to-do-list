@@ -10,5 +10,4 @@ HTML5 · CSS3
 ## 🎯 Objetivo
 Praticar estrutura de listas, responsividade e estilização com CSS.
 
-## 🚧 Status
 ✅ Status: Projeto finalizado
