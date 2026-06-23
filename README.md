@@ -11,4 +11,4 @@ HTML5 · CSS3
 Praticar estrutura de listas, responsividade e estilização com CSS.
 
 ## 🚧 Status
-Em construção — subindo os arquivos em breve.
+✅ Status: Projeto finalizado
