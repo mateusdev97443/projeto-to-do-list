@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta
+      name="description"
+      content="To-do List moderna, responsiva e minimalista com tema claro e escuro."
+    />
+
+    <meta
+      name="keywords"
+      content="todo list, lista de tarefas, html, css, front-end, tema claro, tema escuro, responsivo, taskflow, projeto portfolio"
+    />
+
+    <meta name="author" content="Mateus Ernandes" />
+
+    <title>TaskFlow | To-do List</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+
+  <body>
+    <main class="todo-page">
+      <section class="todo-app" aria-labelledby="todo-title">
+        <header class="todo-header">
+          <div class="todo-header__content">
+            <p class="todo-header__subtitle">Organize seu dia</p>
+
+            <h1 class="todo-header__title" id="todo-title">TaskFlow</h1>
+          </div>
+
+          <div class="theme">
+            <input
+              class="theme__input"
+              type="checkbox"
+              id="theme-toggle"
+              aria-label="Alternar entre tema claro e escuro"
+            />
+
+            <label class="theme__button" for="theme-toggle">
+              <span class="theme__icon theme__icon--sun" aria-hidden="true">
+                ☀️
+              </span>
+
+              <span class="theme__icon theme__icon--moon" aria-hidden="true">
+                🌙
+              </span>
+            </label>
+          </div>
+        </header>
+
+        <form class="todo-form" action="#" method="post">
+          <label class="sr-only" for="new-task"> Criar nova tarefa </label>
+
+          <input
+            class="todo-form__input"
+            type="text"
+            id="new-task"
+            name="new-task"
+            placeholder="Criar nova tarefa..."
+          />
+
+          <button class="todo-form__button" type="submit">Adicionar</button>
+        </form>
+
+        <section class="todo-card" aria-label="Lista de tarefas">
+          <ul class="todo-list">
+            <li class="todo-item">
+              <label class="todo-item__label">
+                <input class="todo-item__check" type="checkbox" />
+
+                <span class="todo-item__custom-check" aria-hidden="true"></span>
+
+                <span class="todo-item__text"> Estudar HTML5 </span>
+              </label>
+
+              <button
+                class="todo-item__delete"
+                type="button"
+                aria-label="Excluir tarefa"
+              >
+                ×
+              </button>
+            </li>
+
+            <li class="todo-item">
+              <label class="todo-item__label">
+                <input class="todo-item__check" type="checkbox" />
+
+                <span class="todo-item__custom-check" aria-hidden="true"></span>
+
+                <span class="todo-item__text"> Praticar CSS3 </span>
+              </label>
+
+              <button
+                class="todo-item__delete"
+                type="button"
+                aria-label="Excluir tarefa"
+              >
+                ×
+              </button>
+            </li>
+
+            <li class="todo-item">
+              <label class="todo-item__label">
+                <input class="todo-item__check" type="checkbox" checked />
+
+                <span class="todo-item__custom-check" aria-hidden="true"></span>
+
+                <span class="todo-item__text">
+                  Organizar os arquivos do projeto
+                </span>
+              </label>
+
+              <button
+                class="todo-item__delete"
+                type="button"
+                aria-label="Excluir tarefa"
+              >
+                ×
+              </button>
+            </li>
+
+            <li class="todo-item">
+              <label class="todo-item__label">
+                <input class="todo-item__check" type="checkbox" />
+
+                <span class="todo-item__custom-check" aria-hidden="true"></span>
+
+                <span class="todo-item__text"> Criar layout responsivo </span>
+              </label>
+
+              <button
+                class="todo-item__delete"
+                type="button"
+                aria-label="Excluir tarefa"
+              >
+                ×
+              </button>
+            </li>
+
+            <li class="todo-item">
+              <label class="todo-item__label">
+                <input class="todo-item__check" type="checkbox" />
+
+                <span class="todo-item__custom-check" aria-hidden="true"></span>
+
+                <span class="todo-item__text"> Publicar no portfólio </span>
+              </label>
+
+              <button
+                class="todo-item__delete"
+                type="button"
+                aria-label="Excluir tarefa"
+              >
+                ×
+              </button>
+            </li>
+          </ul>
+
+          <footer class="todo-footer">
+            <p class="todo-footer__count">4 tarefas restantes</p>
+
+            <nav class="todo-filters" aria-label="Filtros de tarefas">
+              <a class="todo-filters__link todo-filters__link--active" href="#">
+                Todas
+              </a>
+
+              <a class="todo-filters__link" href="#"> Pendentes </a>
+
+              <a class="todo-filters__link" href="#"> Concluídas </a>
+            </nav>
+
+            <button class="todo-footer__clear" type="button">
+              Limpar concluídas
+            </button>
+          </footer>
+        </section>
+
+        <p class="todo-help">
+          Dica: marque as tarefas concluídas para acompanhar seu progresso.
+        </p>
+      </section>
+    </main>
+  </body>
+</html>
