@@ -1,13 +1,31 @@
-# projeto-to-do-list
+# ✅ To-Do List - Gerenciador de Tarefas
 
-# ✅ Lista de Tarefas
+Aplicativo de lista de tarefas desenvolvido com HTML, CSS e JavaScript.
 
-Organizador de tarefas feito durante minha jornada de aprendizado na Refatorando.
+## 🎯 Funcionalidades
+- Adicionar novas tarefas
+- Marcar tarefas como concluídas
+- Remover tarefas
+- Persistência local (LocalStorage)
 
-## 🛠️ Tecnologias
-HTML5 · CSS3
+## 🛠 Tecnologias
+- HTML5
+- CSS3 (Grid Layout, Flexbox)
+- JavaScript (DOM Manipulation, LocalStorage)
 
-## 🎯 Objetivo
-Praticar estrutura de listas, responsividade e estilização com CSS.
+## 🎨 Design
+Interface minimalista e funcional com foco em UX.
 
-✅ Status: Projeto finalizado
+## 📦 Instalação
+```bash
+git clone https://github.com/mateusdev97443/projeto-to-do-list.git
+cd projeto-to-do-list
+# Abra index.html no navegador
+```
+
+## 🔗 Live Demo
+*[Adicione link do GitHub Pages quando publicar]*
+
+## 👨‍💻 Desenvolvedor
+Mateus Ernandes Turet Ribeiro  
+Em transição de carreira para Desenvolvimento Front-End
